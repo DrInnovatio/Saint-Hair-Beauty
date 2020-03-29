@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 
 class Header extends React.Component {
 
@@ -9,11 +9,19 @@ class Header extends React.Component {
         <i className="fa fa-cut" aria-hidden="true"/>
         <h1>Saint Hair</h1>
         <div className='text'>
-          <p>About Us</p>
-          <p>Booking</p>
-          <p>Contact me</p>
+          <p>Home</p>
+          <p>About</p>
+          <p>Team</p>
+          <p>Services</p>
+          <p>Price List</p>
+          <p>Book Online</p>
+          <p>Blog</p>
+          <p>Media</p>
+          <p>Contact</p>
         </div>
       </div>
+
+  
     )
   }
 }

@@ -13,14 +13,14 @@
 
 .text{
   display: flex;
-  padding-left: 50%;
-  background-color: blue;
+  padding-left: 28%;
+
 }
 
 .header p {
-  padding-top: 20px;
-  padding-left: 40px;
-  font-size: 1.5rem;
+  padding-top: 25px;
+  padding-left: 25px;
+  font-size: 1.2rem;
 }
 
 .header i {
