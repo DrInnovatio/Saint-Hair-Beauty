@@ -1,5 +1,6 @@
-import React from 'react'
-import MediaCard from '../Cards/Card.jsx'
+import React from 'react';
+import MediaCard from '../Cards/Card.jsx';
+import Contact from '../Contact/Contact.jsx';
 import './Landing.css';
 import hairDresser from '../../images/hairDresser.jpg';
 import perm from '../../images/perm.png';
@@ -45,6 +46,7 @@ class Landing extends React.Component {
             </div>
           </div>
 
+          <Contact/>
       </div>
     )
   }
