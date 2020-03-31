@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   height: 70px; 
-  background-color: rgb(135, 184, 248);
+  background-color: #ecfbfc;
   text-align: center;
   display: flex;
 }
