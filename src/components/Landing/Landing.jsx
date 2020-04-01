@@ -6,7 +6,9 @@ import hairDresser from '../../images/hairDresser.jpg';
 import perm from '../../images/perm.png';
 import coloringHair from '../../images/coloringHair.png';
 import hairCut from '../../images/hairCut.png';
-import BackgroundVideo from '../../components/BackgroundVideo/BackgroundVideo.jsx'
+import BackgroundVideo from '../BackgroundVideo/BackgroundVideo.jsx'
+
+import GoogleMap from '../Location/Location.jsx';
 
 class Landing extends React.Component {
   render(){
@@ -47,10 +49,10 @@ class Landing extends React.Component {
           </div>
 
           <Contact/>
+          <GoogleMap/>
       </div>
     )
   }
-
 }
 
 export default Landing;

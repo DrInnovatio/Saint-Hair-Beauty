@@ -8,9 +8,21 @@ class Contact extends React.Component {
     return(
       <div className="mainContact">
 
-        <i className="fa fa-mobile" aria-hidden="true"/> 0404-999-999
-        <i className="fa fa-envelope" aria-hidden="true"/>guriguri@gmail.com
+        <div className="icons">
+          <i className="fa fa-mobile 7x" aria-hidden="true"/> 0404-999-999
+          <br/>
+          <i className="fa fa-envelope 7x" aria-hidden="true"/> hair@gmail.com
+        </div>
+
         <button className="bookingButton" type="button">Book Now</button>
+        <div className="payment">
+
+        
+        <i className="fa fa-cc-visa"></i>
+        <i className="fa fa-cc-paypal"></i>
+        <i className="fa fa-cc-mastercard"></i>
+
+        </div>
       </div>
     )
   }
