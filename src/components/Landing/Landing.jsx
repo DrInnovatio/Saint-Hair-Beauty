@@ -2,13 +2,14 @@ import React from 'react';
 import MediaCard from '../Cards/Card.jsx';
 import Contact from '../Contact/Contact.jsx';
 import './Landing.css';
+import Location from '../Location/Location.jsx'
 import hairDresser from '../../images/hairDresser.jpg';
 import perm from '../../images/perm.png';
 import coloringHair from '../../images/coloringHair.png';
 import hairCut from '../../images/hairCut.png';
 import BackgroundVideo from '../BackgroundVideo/BackgroundVideo.jsx'
 
-import GoogleMap from '../Location/Location.jsx';
+//import GoogleMap from '../Location/Location.jsx';
 
 class Landing extends React.Component {
   render(){
@@ -48,8 +49,8 @@ class Landing extends React.Component {
             </div>
           </div>
 
+          <Location/>
           <Contact/>
-          <GoogleMap/>
       </div>
     )
   }
