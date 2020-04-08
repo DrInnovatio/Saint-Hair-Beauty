@@ -6,7 +6,7 @@ class Location extends React.Component {
   render(){
     return(
       <div>
-        <h1>Our Location</h1>
+        <h1 className="location">Our Location</h1>
           <GoogleMaps/>
       </div>
     )
